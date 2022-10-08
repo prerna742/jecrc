@@ -1,0 +1,196 @@
+
+RULES OF VARIABLES
+
+1 can not start with number
+ex 1='python',a1='python
+
+2 no space
+a 1='python'
+
+3 can not use special character
+a$ = 'hello';a_1 = 'hi';_=200
+
+4 can not use keywords
+for=2.2
+---------------------
+PYTHON OPERATORS
+
+7TYPES
+1.ARITHMETIC OPERATOR (+,-,*,%,//,**)
+2.COMPARISON/RELATIONAL OPERATOR (<,>,>=,<=,!=,==)
+3.ASSIGNMENT OPERATOR (=,+=,-=,*=,/=,//=)
+4.BITWISE (&,|,^)
+5.LOGICAL OPERATOR (AND,OR,NOT)
+6.IDENTITY OPERATOR (is,is not)
+7.MEMBERSHIP OPERATOR (in,not in)
+---------------------------------------------------
+
+()--Function,Expression,Tuple
+[]--List,Indexing,Slicing
+{}--Set,Dictionary
+<>--NO Use
+---------------------------------------
+
+DATATYPES IN PYTHON
+
+1. Numeric---int----a=5
+             float----b=5.5
+             complex---3+5j
+
+2. String----str---a='hello'/a="hello"/a='''hii'''
+             b="'hello'"(Not Possible)
+
+3. List---list---my_list=['abc',5,5.5,2+6j]
+
+4. Tuple---tuple---my_tuple=(45,4.5,'hii','bye')
+
+5. Set---set---{1,23,56,50}
+
+6. Dictionary---dict{key : value}
+
+7. Boolean---True,False
+-----------------------------------------
+1. String
+--------------------------------------
+1. indexing
+a='Hello'
+He
+a[starting point(by default 0):stop(Excluding):step(b.d1)(by default 1)]
+(Including)
+a[0:2]
+-------------------------------------------------------------------------------
+list
+1.[]
+2.homo/hetro
+3.mutable
+4.indexing/slicing,loop
+---------------------------------------------------------------------
+Tuple
+1. ()
+2. comma seperated value
+3. immutable
+4. homo/hetro
+5. indexing/slicing 
+6. tuple is faster than list
+----------------------------------------------------------------------
+Set
+1. unordered
+2. indexing/slicing(no use)
+3. Unique collection
+------------------------------------------------------------
+Data type dictionary
+
+1. Unordered
+2. Key value pair
+3. Indexing/slicing (not possible)
+-----------------------------------------------------------------
+3 Statements
+1. Condition/Decision Making--if-elif-else(suites/Indentation)
+2. Looping--For and While
+3. Exception Handing---Try,Except
+--------------------------------------------------------------------------
+Simple if
+
+if age<18:
+    print('A Gift')
+if age>=18 and age<=20:
+    print('A Gift')
+    print('A Task')
+if age>20:
+    print('koi gift nhi hai')
+--------------------------------------------------------------------
+Ladder
+
+if age<18:
+    print('a gift')
+elif age>=18 and age <=20:
+      print('a gift')
+      print('a task') 
+else:
+      print('koi gift nhi hai')
+-----------------------------------------------------------------------
+Nested
+
+if today=='Saturday':
+   print('Half Day Work')
+elif today=='sunday':
+    if condition=='Sick':
+        print('Take Rest')
+    else:
+       print('Party')
+--------------------------------------------------------------
+range(start point(including),stop point(excluding),step(by default 1))
+
+        (by default 0)
+----------------------------------------------------------------------------------
+Loop
+
+1. For Loop
+2. While Loop
+
+for i in[1,2,3,4,5]:
+     print(i)
+3. infinite loop ko stop krne k liye(cntl+c)
+------------------------------------------------------------------------------
+Function
+
+1. NO INput / No Output
+2. NO INput /But Output
+3. Input But No output
+4. Output and Input
+------------------------------------------------------------------------
+1. Taking Multiple Input
+2. Returning Multiple Output
+3. Keyword Argument
+4. Default Values
+5. *args
+6. **kwargs
+----------------------------------------------------------------------------
+Module---it is a .py file; Ex-OS,Math,
+Packages---it is a collection of Modules,_init_.py
+Libraries---it is a collection of packages
+--------------------------------------------------------------------------------------
+1 capilaize--first letter capital
+2 casefold--lowercase
+3 cat--concatination/addition
+4 centre--to make it centre
+5 count--to count the particular variable
+6 endswith--
+7 find--finds position
+8 get--
+9 get_dumies--categorial information like gender,convert string into numeical data
+10 index
+11 split
+12 join
+13 upper/lower
+14 strip--leading and trailing spaces/character remove
+15 groupby--movies.groupby('GENRE')['DURATION'].mean()
+----------------------------------------------------------------------------------------------------
+git_scm.com
+https://www.kaggle.com/datasets/sanamps/movielens-recommender
+
+https://www.kaggle.com/sanamps/datasets
+
+GIT PROCESS
+-----------------------------------------------------------------------------------------
+create new repository
+provide valid name
+selectpublic repo
+finish
+
+
+
+go to your folder(for e.g.JECRC_CS)
+type cmd in address bar then enter
+
+GIT COMMANDS
+--------------------------------------
+git init-----initialize the git folder
+git add------add all files/folders in git folder
+git config user.name"your name"
+git config user.email"your email@id.com"
+git remoteadd origin"your repolink.git"
+
+
+git commit -m "anymessage"
+git push-u origin main
