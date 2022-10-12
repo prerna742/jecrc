@@ -205,3 +205,65 @@ commit message
 commit 
 commit and push
 commit push and pull
+--------------------------------------------------------------------------------
+function can be assign to an identifier
+function can be taken as input argument in another function
+function can be defineinside python function
+
+-----------------------------------------------------------------
+https://github.com/sanampeeyush/jecrc_cs_sep22/tree/assignment1/assignments
+--------------------------------------------------------------------------------
+# Types of graphs
+1. plot--line graph,between two parameters
+2. bar--bar graph of single parameter(optional cat_data)
+3. hist--histogram a bunch of data i.e. frequency of single parameter(very useful and important)
+4. scatter--dot graph between two parmeters(important)
+5. boxplot/box-- statistical overview in form of box for a single parameter mean,outliers,quantiles(25%,75%),IQR
+                 (optional - catagorical data)
+6. stem--more like bar graph,lines instead of bars
+7. violinplot--violin shaped statistical overview graph spred of data (more like hist)
+               single parameter (optional- cat_data)
+---------------------------------------------------------------------------------------------------------------------------------
+Graph Functions
+
+1. plot---simple line plot
+2. plot.area---filled version of line plot
+3. plot.bar / plot.barh----bar graph
+4. plot.box----box plot
+5. plot.density------density line(smooth curved)
+6.plot.hexbin------hexagon version of scatter with density
+7. plot.hist----histogram
+8. plot.kde---kernel density estimator (density graph)
+9. plot.pie------pie chart of catagorical data
+10. plot.scatter----scatter graph
+--------------------------------------------------------------------------------
+SEABORN
+
+######catagories
+1. Catagorical plots(hue can be used | comparison with catagorical data)
+   a. countplot(single parameter)
+   b. barplot(one paragraph catagorical & one paragraph numerical | calculate mean by default)
+   c. boxplot
+   d. violinplot
+   e. swarmplot
+2. Distribution plots
+   a. distplot
+   b. displot
+   c. jointplot
+   d. pairplot
+   e. kdeplot
+   f. rugplot
+   g. scatterplot
+3. Matrix plots
+   a. heatmap
+   b. clustermap
+   c. pairplot(same as above one)
+4. Regression plot
+   a. implot
+   b. regplot
+5. Grid plots
+   a. pairgrid
+   b. jointgrid
+   c. facetgrid
+----------------------------------------------------------------------------------------------------------------------------
+
