@@ -266,4 +266,7 @@ SEABORN
    b. jointgrid
    c. facetgrid
 ----------------------------------------------------------------------------------------------------------------------------
-
+EDA---Exploratory Data Analysis
+     1. Univariate (single variable)
+     2. Bivariate(two variable)
+     3. Multivaraite(Multiple variable)
