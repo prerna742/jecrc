@@ -1,7 +1,7 @@
 import tkinter as ttk
 import pandas as pd
 
-model = pd.read_pickle('housePrice.pkl')
+model = pd.read_pickle('housePrice.pickle')
 
 app = ttk.Tk()
 app.geometry('300x300')
@@ -31,8 +31,8 @@ def prediction():
     'Avg. Area House Age':[eval(house_age.get())],
     'Avg. Area Number of Rooms':[eval(num_rooms.get())],
     'Area Population':[eval(population.get())]}
-price = model.predict(pd.DataFrame(query_data))
-result.set(round(price[0],2))
+    price = model.predict(pd.DataFrame(query_data))
+    result.set(round(price[0],2))
 
 ttk.Button(app,text='Predict',command=prediction).grid(row=4,column=0,columnspan=2)
 
